@@ -7,9 +7,6 @@ import {
     deleteUserByName
 } from '../controllers/user.controller'
 
-import { Request, Response } from "express";
-import { request } from "http";
-
 const router = Router();
 
 router.get('/:name', getUserByName)
